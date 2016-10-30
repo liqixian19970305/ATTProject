@@ -1,0 +1,6 @@
+framework module Pods_ATTProject {
+  umbrella header "Pods-ATTProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
