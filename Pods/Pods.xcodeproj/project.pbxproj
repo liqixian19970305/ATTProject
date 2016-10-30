@@ -7,41 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25F84C8A8C21E276C05E6CD57FBD47B8 /* Pods-ATTProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCFC8B610AE59B2A288D221BFD31A7C /* Pods-ATTProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56E50479A5EFF3DE78EAA9373CD4D035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		70726D4F120C22F28A8BBE59A44EA39D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		9199526833992F9CE157C47CB1DCC4AC /* Pods-ATTProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 895612469A3D39B9AEB10685B54CB1B5 /* Pods-ATTProject-dummy.m */; };
 		D7A05BAB75895A20C8CA3AB2EA1EBE7D /* Pods-ATTProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 564F9E1E9F829F05549CE7C6A3606658 /* Pods-ATTProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D94DD51DD00D37DC6E27AA163550E91A /* Pods-ATTProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E319B8C456E308001223A665B40319 /* Pods-ATTProjectTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06EE35A777A3B04DB8D0AE78D91AC64E /* Pods-ATTProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATTProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D5D7EE8380EAD0F5120AEED0D3C78EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		209B1856C92C488C450CCE0CF8BCF967 /* ArcGIS.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
-		2256992D9349636639390ABA2B4B0755 /* Pods-ATTProjectTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATTProjectTests-resources.sh"; sourceTree = "<group>"; };
 		247DCD6DED023B1C33D44D956FAD3624 /* Pods-ATTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATTProject.debug.xcconfig"; sourceTree = "<group>"; };
-		2BD38F8A9B7569ABD9521E62DF21BCD5 /* Pods-ATTProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATTProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4430492ED8E789804FFA6AC1B587C7E5 /* Pods-ATTProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATTProjectTests-frameworks.sh"; sourceTree = "<group>"; };
-		50598515AB38B511E5DBA6D05661A008 /* Pods-ATTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		558B96820111A27955C8D33A090D7740 /* Pods_ATTProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		564F9E1E9F829F05549CE7C6A3606658 /* Pods-ATTProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATTProject-umbrella.h"; sourceTree = "<group>"; };
 		6537C6D8A9BE14EFCB9599EC8D6240A5 /* Pods-ATTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATTProject.release.xcconfig"; sourceTree = "<group>"; };
-		79986038B7FB37680AB524471F66744A /* Pods-ATTProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ATTProjectTests.modulemap"; sourceTree = "<group>"; };
 		84447FB822F1CCFDB1AA38C32D9A1B78 /* Pods-ATTProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATTProject-acknowledgements.markdown"; sourceTree = "<group>"; };
 		895612469A3D39B9AEB10685B54CB1B5 /* Pods-ATTProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATTProject-dummy.m"; sourceTree = "<group>"; };
 		8BF3698C32A8125CEE3613703903F9F6 /* Pods_ATTProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATTProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9841BC342884653173EC383AAEF7A3BB /* Pods-ATTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A3A9C6944A912A3EFB37A99849F94EE /* ArcGIS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ArcGIS.framework; sourceTree = "<group>"; };
 		AF0CA4DE0AFCEA44680B14216E2C247D /* Pods-ATTProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ATTProject.modulemap"; sourceTree = "<group>"; };
-		B2E319B8C456E308001223A665B40319 /* Pods-ATTProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATTProjectTests-dummy.m"; sourceTree = "<group>"; };
 		B745A128082D4A350A4BB9091B06B08C /* Pods-ATTProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATTProject-resources.sh"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EC20F51EBFA5FB011A23F4D2F0871B6E /* Pods-ATTProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATTProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EC2E0DD34D9C0DA938C413697CBE6FB6 /* Pods-ATTProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATTProject-frameworks.sh"; sourceTree = "<group>"; };
 		EC53FBD4183664AB2EB9A4C2CF20BA7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCCFC8B610AE59B2A288D221BFD31A7C /* Pods-ATTProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATTProjectTests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,24 +52,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1433A4D6E21DCFE98FF13B61EE4DC422 /* Pods-ATTProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				1D5D7EE8380EAD0F5120AEED0D3C78EC /* Info.plist */,
-				79986038B7FB37680AB524471F66744A /* Pods-ATTProjectTests.modulemap */,
-				2BD38F8A9B7569ABD9521E62DF21BCD5 /* Pods-ATTProjectTests-acknowledgements.markdown */,
-				EC20F51EBFA5FB011A23F4D2F0871B6E /* Pods-ATTProjectTests-acknowledgements.plist */,
-				B2E319B8C456E308001223A665B40319 /* Pods-ATTProjectTests-dummy.m */,
-				4430492ED8E789804FFA6AC1B587C7E5 /* Pods-ATTProjectTests-frameworks.sh */,
-				2256992D9349636639390ABA2B4B0755 /* Pods-ATTProjectTests-resources.sh */,
-				FCCFC8B610AE59B2A288D221BFD31A7C /* Pods-ATTProjectTests-umbrella.h */,
-				50598515AB38B511E5DBA6D05661A008 /* Pods-ATTProjectTests.debug.xcconfig */,
-				9841BC342884653173EC383AAEF7A3BB /* Pods-ATTProjectTests.release.xcconfig */,
-			);
-			name = "Pods-ATTProjectTests";
-			path = "Target Support Files/Pods-ATTProjectTests";
-			sourceTree = "<group>";
-		};
 		16FA1C80F1C9A54F8E0D279E64D54F42 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				D602123B97A39190EE600DE813BD95CD /* Pods-ATTProject */,
-				1433A4D6E21DCFE98FF13B61EE4DC422 /* Pods-ATTProjectTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -185,7 +154,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25F84C8A8C21E276C05E6CD57FBD47B8 /* Pods-ATTProjectTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +210,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					9E678460C97FB3C9221FE6116F94C5C0 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -266,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D94DD51DD00D37DC6E27AA163550E91A /* Pods-ATTProjectTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +255,6 @@
 /* Begin XCBuildConfiguration section */
 		2EE786272FE412F7EEA568BD2280560B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50598515AB38B511E5DBA6D05661A008 /* Pods-ATTProjectTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -341,6 +312,7 @@
 				PRODUCT_NAME = Pods_ATTProject;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -349,7 +321,6 @@
 		};
 		BF4896309B00A0C10A4FE5B8A115763B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9841BC342884653173EC383AAEF7A3BB /* Pods-ATTProjectTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -487,6 +458,7 @@
 				PRODUCT_NAME = Pods_ATTProject;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

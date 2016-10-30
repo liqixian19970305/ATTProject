@@ -8,13 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		55A383311DC5B7F2004280C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A383301DC5B7F2004280C5 /* AppDelegate.swift */; };
-		55A383331DC5B7F2004280C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A383321DC5B7F2004280C5 /* ViewController.swift */; };
 		55A383361DC5B7F2004280C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A383341DC5B7F2004280C5 /* Main.storyboard */; };
 		55A383381DC5B7F2004280C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A383371DC5B7F2004280C5 /* Assets.xcassets */; };
 		55A3833B1DC5B7F2004280C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A383391DC5B7F2004280C5 /* LaunchScreen.storyboard */; };
-		55A383461DC5B7F2004280C5 /* ATTProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A383451DC5B7F2004280C5 /* ATTProjectTests.swift */; };
-		5B9C7A6736EB7EF25FEE3298 /* Pods_ATTProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C7B9419B8661B29BA01894 /* Pods_ATTProjectTests.framework */; };
-		7743887790E44AD491698F70 /* Pods_ATTProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0567CC5158E486383BCFCA7C /* Pods_ATTProject.framework */; };
+		55A383531DC5D507004280C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A383521DC5D507004280C5 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +25,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0567CC5158E486383BCFCA7C /* Pods_ATTProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATTProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		05BC70F6232248ED7F974C95 /* Pods-ATTProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATTProjectTests/Pods-ATTProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		07F448682B6F878F78F73439 /* Pods-ATTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATTProject/Pods-ATTProject.release.xcconfig"; sourceTree = "<group>"; };
-		48C7B9419B8661B29BA01894 /* Pods_ATTProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATTProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A3832D1DC5B7F2004280C5 /* ATTProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A383301DC5B7F2004280C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55A383321DC5B7F2004280C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55A383351DC5B7F2004280C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55A383371DC5B7F2004280C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55A3833A1DC5B7F2004280C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55A3833C1DC5B7F2004280C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55A383411DC5B7F2004280C5 /* ATTProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATTProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55A383451DC5B7F2004280C5 /* ATTProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTProjectTests.swift; sourceTree = "<group>"; };
-		55A383471DC5B7F2004280C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		797257B9DDEAAFB6C4C9F90B /* Pods-ATTProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATTProjectTests/Pods-ATTProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		55A383521DC5D507004280C5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C86BE725700406EFD9BDCCD9 /* Pods-ATTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATTProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATTProject/Pods-ATTProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7743887790E44AD491698F70 /* Pods_ATTProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9C7A6736EB7EF25FEE3298 /* Pods_ATTProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +58,6 @@
 		2299D2FB7B80A5870F30BFAC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0567CC5158E486383BCFCA7C /* Pods_ATTProject.framework */,
-				48C7B9419B8661B29BA01894 /* Pods_ATTProjectTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				55A3832F1DC5B7F2004280C5 /* ATTProject */,
-				55A383441DC5B7F2004280C5 /* ATTProjectTests */,
 				55A3832E1DC5B7F2004280C5 /* Products */,
 				B74C3A0FE1AF7358ED874E6A /* Pods */,
 				2299D2FB7B80A5870F30BFAC /* Frameworks */,
@@ -99,22 +85,13 @@
 			isa = PBXGroup;
 			children = (
 				55A383301DC5B7F2004280C5 /* AppDelegate.swift */,
-				55A383321DC5B7F2004280C5 /* ViewController.swift */,
 				55A383341DC5B7F2004280C5 /* Main.storyboard */,
 				55A383371DC5B7F2004280C5 /* Assets.xcassets */,
 				55A383391DC5B7F2004280C5 /* LaunchScreen.storyboard */,
 				55A3833C1DC5B7F2004280C5 /* Info.plist */,
+				55A383521DC5D507004280C5 /* MapViewController.swift */,
 			);
 			path = ATTProject;
-			sourceTree = "<group>";
-		};
-		55A383441DC5B7F2004280C5 /* ATTProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				55A383451DC5B7F2004280C5 /* ATTProjectTests.swift */,
-				55A383471DC5B7F2004280C5 /* Info.plist */,
-			);
-			path = ATTProjectTests;
 			sourceTree = "<group>";
 		};
 		B74C3A0FE1AF7358ED874E6A /* Pods */ = {
@@ -122,8 +99,6 @@
 			children = (
 				C86BE725700406EFD9BDCCD9 /* Pods-ATTProject.debug.xcconfig */,
 				07F448682B6F878F78F73439 /* Pods-ATTProject.release.xcconfig */,
-				05BC70F6232248ED7F974C95 /* Pods-ATTProjectTests.debug.xcconfig */,
-				797257B9DDEAAFB6C4C9F90B /* Pods-ATTProjectTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -185,6 +160,7 @@
 					55A3832C1DC5B7F2004280C5 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 3HW277PH2D;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					55A383401DC5B7F2004280C5 = {
@@ -332,8 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A383331DC5B7F2004280C5 /* ViewController.swift in Sources */,
 				55A383311DC5B7F2004280C5 /* AppDelegate.swift in Sources */,
+				55A383531DC5D507004280C5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A383461DC5B7F2004280C5 /* ATTProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TonyLi.ATTProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -490,13 +465,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TonyLi.ATTProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 		55A3834E1DC5B7F2004280C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05BC70F6232248ED7F974C95 /* Pods-ATTProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,7 +486,6 @@
 		};
 		55A3834F1DC5B7F2004280C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 797257B9DDEAAFB6C4C9F90B /* Pods-ATTProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
